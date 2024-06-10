@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2023/06/astral-express-honkai-star-rail-thumb.jpg);
+    color: antiquewhite;
+}
+
+#menu{ 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+#menu>div{
+    background-color: blue;
+    border: 2px black solid;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    cursor: pointer;
+}
+
+.imagens{
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    width: 100%;
+    align-content: center;
+}
+
+
+.imagens>div>p{
+    border: solid 2px rgb(180, 146, 101);
+}
+.imagens>div>p:hover{
+    background-color: black;
+}
+
+.imagens>div>img{
+    height: 25rem;
+    width: 25rem;
+}
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    background-color: black;
+    border: solid 2px rgb(180, 146, 101);
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: large;
+}
